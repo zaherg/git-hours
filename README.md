@@ -1,7 +1,4 @@
-[![Docker Pulls](https://img.shields.io/docker/pulls/zaherg/git-hours.svg)](https://hub.docker.com/r/zaherg/git-hours/)
-[![](https://images.microbadger.com/badges/image/zaherg/git-hours.svg)](https://microbadger.com/images/zaherg/git-hours "Get your own image badge on microbadger.com")
-[![](https://images.microbadger.com/badges/version/zaherg/git-hours.svg)](https://microbadger.com/images/zaherg/git-hours "Get your own version badge on microbadger.com")
-[![](https://images.microbadger.com/badges/commit/zaherg/git-hours.svg)](https://microbadger.com/images/zaherg/git-hours "Get your own commit badge on microbadger.com")
+[![Docker Pulls](https://img.shields.io/docker/pulls/zaherg/git-hours.svg)](https://hub.docker.com/r/zaherg/git-hours/) [![](https://images.microbadger.com/badges/image/zaherg/git-hours.svg)](https://microbadger.com/images/zaherg/git-hours "Get your own image badge on microbadger.com") [![](https://images.microbadger.com/badges/version/zaherg/git-hours.svg)](https://microbadger.com/images/zaherg/git-hours "Get your own version badge on microbadger.com") [![](https://images.microbadger.com/badges/commit/zaherg/git-hours.svg)](https://microbadger.com/images/zaherg/git-hours "Get your own commit badge on microbadger.com")
 
 
 # Git-Hours

@@ -1,4 +1,4 @@
-FROM alpine:3.7
+FROM alpine:3.8
 
 ARG BUILD_DATE
 ARG VCS_REF
@@ -13,7 +13,7 @@ LABEL Maintainer="Zaher Ghaibeh <z@zah.me>" \
       org.label-schema.schema-version="1.0.0"
 
 
-ENV VERSION=v6.14.2 NPM_VERSION=3
+ENV VERSION=v6.14.3 NPM_VERSION=3
 
 RUN set -ex \
   	&& apk update \
@@ -34,7 +34,7 @@ RUN set -ex \
     grep " node-${VERSION}.tar.xz\$" | sha256sum -c | grep ': OK$' && \
   	tar -xf node-${VERSION}.tar.xz && \
   	cd node-${VERSION} && \
-  	./configure --prefix=/usr ${CONFIG_FLAGS} && \
+  	./configure --prefix=/usr && \
   	make -j$(getconf _NPROCESSORS_ONLN) && \
   	make install && \
   	cd / && \

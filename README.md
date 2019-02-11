@@ -76,5 +76,5 @@ It mounts the current directory (pwd) inside the docker container and runs `git 
 
 ## Credits
 
-1. This image is based on [mhart/alpine-node](https://hub.docker.com/r/mhart/alpine-node/) works.
+1. This image is based on [official node](https://hub.docker.com/_/node) images.
 2. [git-hours](https://github.com/kimmobrunfeldt/git-hours) was built by [Kimmo Brunfeldt](https://github.com/kimmobrunfeldt).
